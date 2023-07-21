@@ -7,6 +7,18 @@
     padding-top: 3%;
     
 }
+.nav-link{
+    color:  #1f6e99 !important;
+}
+
+.navStyle{
+    background-color:   #eed0b3   ;
+    
+}
+.nav-link:hover {
+    color:   #941804 !important;
+    
+}
 .pointer {
     cursor: pointer;
 }
@@ -24,7 +36,7 @@
 
 .inicioDivT{
     height: 40rem;
-    background-image: url("/assets/images/bannerTaqueInicio.jpg");
+    background-image: url("/assets/images/eventoBanner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,7 +228,7 @@
         margin-top: 5%;
     }
     .inicioDivT{
-        height: 27rem;
+        height: 18rem;
     
     }
    
