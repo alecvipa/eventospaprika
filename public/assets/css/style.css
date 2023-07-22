@@ -1,13 +1,14 @@
-
-.fonts3{
-    font-family: 'Montserrat';
-
-}
 .footer{
     padding-top: 3%;
     
 }
-.nav-link{
+.fontReboto{
+    font-family: 'Roboto', sans-serif;
+}
+.fontlato{
+    font-family: 'Lato', sans-serif !important;
+}
+.nav-link, .blackLink{
     color:  #1f6e99 !important;
 }
 
@@ -15,9 +16,12 @@
     background-color:   #eed0b3   ;
     
 }
-.nav-link:hover {
+.nav-link:hover, .blackLink:hover {
     color:   #941804 !important;
     
+}
+.title1{
+    color:   #941804;
 }
 .pointer {
     cursor: pointer;
@@ -80,7 +84,7 @@
 .overlay{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: #eed0b3;
     padding-top: 3%;
     padding-bottom: 6%;
 }
@@ -92,10 +96,7 @@
     margin-top: -3%;
 }
 
-.autenticos{
-    text-shadow: 2px 2px #FEDAA0;
-    
-}
+
 .colorLightTaqueñitos{
     color: #FEDAA0;
 }
@@ -113,7 +114,7 @@
 }
 .buttonAction{
     color: #FEDAA0 !important;
-    background-color: #E84030 !important;
+    background-color: #1f6e99 !important;
 }
 .buttonMenuM{
     margin-left: 3%;
