@@ -1,32 +1,45 @@
-.footer{
+.footer {
     padding-top: 3%;
-    
+
 }
-.fontReboto{
-    font-family: 'Roboto', sans-serif;
-}
-.fontlato{
-    font-family: 'Lato', sans-serif !important;
-}
-.nav-link, .blackLink{
-    color:  #1f6e99 !important;
+.marginAuto{
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
-.navStyle{
-    background-color:   #eed0b3   ;
-    
+.fontReboto {
+    font-family: 'Roboto', sans-serif;
 }
-.nav-link:hover, .blackLink:hover {
-    color:   #941804 !important;
-    
+
+.fontlato {
+    font-family: 'Lato', sans-serif !important;
 }
-.title1{
-    color:   #941804;
+
+.nav-link,
+.blackLink {
+    color: #1f6e99 !important;
 }
+
+.navStyle {
+    background-color: #eed0b3;
+
+}
+
+.nav-link:hover,
+.blackLink:hover {
+    color: #941804 !important;
+
+}
+
+.title1 {
+    color: #941804;
+}
+
 .pointer {
     cursor: pointer;
 }
-.serviciosT{
+
+.serviciosT {
     padding-top: 3%;
     background-image: url("/assets/images/fondo2Taq.jpg");
     background-position: center;
@@ -34,25 +47,28 @@
     background-size: cover;
     padding-bottom: 5%;
 }
-.bannerMenu{
+
+.bannerMenu {
     background-image: url("/assets/images/menuTaqueBanner.jpg");
 }
 
-.inicioDivT{
+.inicioDivT {
     height: 40rem;
     background-image: url("/assets/images/eventoBanner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nosotrosT{
-     margin-top: -3%;
+
+.nosotrosT {
+    margin-top: -3%;
 }
-.bannerConsultingJofer{
+
+.bannerConsultingJofer {
     background-image: url("/assets/images/bannerCosulting.jpg");
 }
 
-.bannerSpace{
+.bannerSpace {
     height: 16rem;
     background-image: url("/assets/images/bannerSpace.jpg");
     background-position: center;
@@ -61,7 +77,8 @@
     margin-bottom: 3%;
     margin-top: 5%;
 }
-.privacidadBanner{
+
+.privacidadBanner {
     height: 36rem;
     background-image: url("/assets/images/bannerTerrazaInicio.jpg");
     background-position: center;
@@ -69,74 +86,160 @@
     background-size: cover;
 
 }
-.PropValueDiv{
+
+.PropValueDiv {
     background-image: url("/assets/images/bannerTacos.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
 }
-.tacosTitle{
+
+.tacosTitle {
     font-size: 4rem;
     margin-bottom: 5%;
 }
-.overlay{
+
+.overlay {
     height: 100%;
     width: 100%;
-    background-color: #eed0b3;
+    background-color: #f1dfce;
     padding-top: 3%;
     padding-bottom: 6%;
 }
-.tablePrivacidad{
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    /* width: 100%;
+    height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.middle3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.container1:hover .image1 {
+    opacity: 0.2;
+}
+
+.container2:hover .image2 {
+    opacity: 0.2;
+}
+.container2:hover .image3 {
+    opacity: 0.2;
+}
+
+.container1:hover .middle1 {
+    opacity: 1;
+}
+.container2:hover .middle2 {
+    opacity: 1;
+}
+.container2:hover .middle3 {
+    opacity: 1;
+}
+
+/* .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+} */
+
+.tablePrivacidad {
     margin-bottom: 15%;
 }
-.divCatchUp{
+
+.divCatchUp {
     padding-top: 3%;
     margin-top: -3%;
 }
 
 
-.colorLightTaqueñitos{
+.colorLightTaqueñitos {
     color: #FEDAA0;
 }
-.colorStrongTaqueñitos{
+
+.colorStrongTaqueñitos {
     color: #E84030;
     font-size: 4rem;
     margin-top: 3%;
-    
+
 }
-.buttonMenu2{
+
+.buttonMenu2 {
     margin-left: 2%;
 }
-.titlesTaque{
+
+.titlesTaque {
     margin-left: 3%;
 }
-.buttonAction{
+
+.buttonAction {
     color: #FEDAA0 !important;
     background-color: #1f6e99 !important;
 }
-.buttonMenuM{
+
+.buttonMenuM {
     margin-left: 3%;
 }
-.menuButtonDiv{
+
+.menuButtonDiv {
     padding: 1.1% !important;
     margin-left: 1%;
 }
 
-#menuDisplay{
+#menuDisplay {
     margin-top: -5%;
 }
 
-.imageCabezaBlanca{
+.imageCabezaBlanca {
     width: 15rem !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    
+
 }
-.centerImg{
+
+.centerImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -145,10 +248,11 @@
 }
 
 @media (min-width: 992px) {
-    .autenticos{
+    .autenticos {
         font-size: 4rem;
         margin-bottom: 3%;
     }
+
     .rounded-tr-lg-0 {
         border-top-right-radius: 0;
     }
@@ -156,81 +260,108 @@
     .rounded-bl-lg-5 {
         border-bottom-left-radius: 0.5rem;
     }
-    .menuBtns{
+
+    .menuBtns {
         font-size: 1rem !important;
     }
-    
+
 }
 
-@media(max-width:991px){
-    .menuDisplayBttmElement{
+
+@media(max-width:991px) {
+
+    .responsiveService{
+        display: block !important;
+    }
+    .responsiveServicePrev{
+        display: none !important;
+    }
+    .menuDisplayBttmElement {
         margin-top: 15%;
     }
-    #menuDisplay{
+
+    #menuDisplay {
         margin-top: -30%;
     }
-    .menuButtonDiv{
+
+    .menuButtonDiv {
         margin-top: 8%;
         padding: 4% !important;
     }
-    .buttonMenuM, .titlesTaque{
+
+    .buttonMenuM,
+    .titlesTaque {
         margin-left: 8% !important;
     }
-    
-    .galImags{
+
+    .galImags {
         margin-top: 10% !important;
     }
-    .colorStrongTaqueñitos{
+
+    .colorStrongTaqueñitos {
         font-size: 2rem;
         margin-top: 3%;
         margin-bottom: 5%;
         margin-left: 3%;
     }
-    .imgGal{
+
+    .imgGal {
         width: 46% !important;
         margin-left: 2%;
     }
-    .historiaTaque{
+
+    .historiaTaque {
         margin-top: 10%;
     }
-    .tacosTitle{
+
+    .tacosTitle {
         font-size: 3rem;
     }
-    .autenticos{
+
+    .autenticos {
         font-size: 3rem;
     }
-    .overlay{
+
+    .overlay {
         padding-bottom: 10%;
     }
-    .serviciosT{
+
+    .serviciosT {
         margin-top: -5%;
         padding-top: 15%;
         padding-bottom: 15%;
-        background-image: url("/assets/images/fondo2TaqRes.jpg");;
+        background-image: url("/assets/images/fondo2TaqRes.jpg");
+        ;
 
     }
-    .secondCard{
-       margin-top: 10%;
+
+    .secondCard {
+        margin-top: 10%;
 
     }
-    .divCatchUp{
+
+    .divCatchUp {
         display: none;
     }
-    .footer{
+
+    .footer {
         padding-top: 10%;
         padding-left: 3%;
         padding-right: 3%;
     }
-    #contacto{
+
+    #contacto {
         margin-top: -30%;
         margin-bottom: -30%;
     }
-    .responsiveMarginCard{
+
+    .responsiveMarginCard {
         margin-top: 5%;
     }
-    .inicioDivT{
+
+    .inicioDivT {
         height: 18rem;
-    
+
     }
-   
+
 }
