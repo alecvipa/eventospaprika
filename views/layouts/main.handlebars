@@ -50,7 +50,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, number: form.number.value, email: form.email.value }));
+            obj.send(JSON.stringify({ name: form.name.value, phone: form.number.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -81,10 +81,10 @@
                         <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/menu">Menú</a>
+                        <a class="nav-link" href="#eventos">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contacto">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -94,11 +94,11 @@
             <!-- Right elements -->
             <div class="d-flex align-items-center">
                 <!-- Icon -->
-                <a class="text-reset me-3" href="https://web.facebook.com/terrazai662" target="_blank">
+                <a class="text-reset me-3"
+                    href="https://www.facebook.com/profile.php?id=100085916147445&mibextid=LQQJ4d" target="_blank">
                     <i class="fa-brands fa-facebook" style="color: #3b5998;"></i>
                 </a>
-                <a class="text-reset me-3" href="https://www.instagram.com/terrazai662/?igshid=YmMyMTA2M2Y="
-                    target="_blank">
+                <a class="text-reset me-3" href="#">
                     <i class="fa-brands fa-instagram" style="color: #F56040;"></i>
                 </a>
             </div>
@@ -113,22 +113,22 @@
     </div>
 
     {{!-- FOOTER STARTS --}}
-    <div class="footer bg-light ">
+    <div class="footer navStyle ">
         <div class="container textr-center">
             <div class="row">
 
                 <div class="col-md-3"></div>
                 <div class="col-md-6 text-center">
-                    <p><b>Los Taqueñitos</b> Todos los derechos reservados. Sus datos están
+                    <p><b>Eventos Paprika</b> Todos los derechos reservados. Sus datos están
                         protegidos por
-                        la ley de privacidad. <span><a href="/privacidad" style="color: gray;">Visita nuestra
+                        la ley de privacidad. <span><a href="/privacidad" class="blackLink">Visita nuestra
                                 política de privacidad</a></span></p>
                 </div>
                 <div class="col-md-3"></div>
             </div>
         </div>
     </div>
-    <br> <br>
+
 
 
     <script src="/assets/js/script.js"></script>

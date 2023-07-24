@@ -1,6 +1,10 @@
 .footer {
     padding-top: 3%;
+    padding-bottom: 3%;
 
+}
+.yellowPaprika{
+    color: #dcc06c !important;
 }
 .marginAuto{
     margin-left: auto !important;
@@ -23,6 +27,9 @@
 .navStyle {
     background-color: #eed0b3;
 
+}
+.hrBorder{
+    border: 2px solid white;
 }
 
 .nav-link:hover,
@@ -270,12 +277,12 @@
 
 @media(max-width:991px) {
 
-    .responsiveService{
+    /* .responsiveService{
         display: block !important;
     }
     .responsiveServicePrev{
         display: none !important;
-    }
+    } */
     .menuDisplayBttmElement {
         margin-top: 15%;
     }
