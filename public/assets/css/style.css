@@ -42,6 +42,7 @@
     color: #941804;
 }
 
+
 .pointer {
     cursor: pointer;
 }
@@ -215,9 +216,7 @@
     margin-left: 2%;
 }
 
-.titlesTaque {
-    margin-left: 3%;
-}
+
 
 .buttonAction {
     color: #FEDAA0 !important;
@@ -271,11 +270,16 @@
     .menuBtns {
         font-size: 1rem !important;
     }
-
+    .title1padding{
+        padding-bottom: 3%;
+    }
 }
 
 
 @media(max-width:991px) {
+    .title1padding{
+        padding-top: 5%;
+    }
 
     /* .responsiveService{
         display: block !important;
@@ -296,8 +300,7 @@
         padding: 4% !important;
     }
 
-    .buttonMenuM,
-    .titlesTaque {
+    .buttonMenuM {
         margin-left: 8% !important;
     }
 
@@ -357,11 +360,7 @@
         padding-right: 3%;
     }
 
-    #contacto {
-        margin-top: -30%;
-        margin-bottom: -30%;
-    }
-
+  
     .responsiveMarginCard {
         margin-top: 5%;
     }
