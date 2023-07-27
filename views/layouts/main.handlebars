@@ -76,7 +76,9 @@
     </script> --}}
 </head>
 
-<body class="fontlato beigeBackground yellowPaprika" data-spy="scroll" data-target="#lashistaItemLandingPage" data-offset="0">
+<body class="fontlato beigeBackground yellowPaprika" data-spy="scroll" data-target="#lashistaItemLandingPage"
+    data-offset="0">
+    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navStyle ">
         <!-- Container wrapper -->
@@ -95,11 +97,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#nosotros">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#eventos">Eventos</a>
+                   
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Eventos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="/sociales">Bodas & Sociales</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/empresariales">Empresariales</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#contacto">Cotizar evento</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -125,7 +140,7 @@
         <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
-
+    
     <div class="bodyPrincipal">
         {{{body}}}
     </div>
