@@ -7,10 +7,10 @@
     font-family: 'Rubik Distressed', cursive;
 }
 .beigeBackground{
-    background-color: rgb(245, 245, 234) ;
+    background-color: #f8f3ee ;
 }
 .bodyBackground{
-    background-color: rgb(245, 245, 234);
+    background-color: rgb(246, 246, 233);
 }
 .backGroundBleu{
     background-color: #1f6e99;
@@ -26,6 +26,14 @@
     padding-top: 5%;
     padding-bottom: 5%;
     
+}
+.pointer {cursor: pointer;}
+.bannerGrads{
+    background-image: url("/assets/images/festejaG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
 }
 .valuePp{
     background-color: hsl(218, 41%, 15%);
@@ -87,7 +95,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 15rem;
-    margin-top: 3%;
+    /* margin-top: 3%; */
 }
 .parallax{
   background-attachment: fixed;
