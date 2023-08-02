@@ -3,43 +3,198 @@
     padding-bottom: 3%;
 
 }
-.rubikFont{
+
+/* Modal */
+.modal, .modal2, .modal3, .modal4 , .modal5 , .modal6, .modal7, .modal8 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modal-content7, .modal-content8 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+/* Add Animation */
+.modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modal-content7, .modal-content8,
+#caption, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8  {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close, .close2, .close3, .close4, .close5, .close6, .close7, .close8 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2:hover,
+.close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3:hover,
+.close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close4:hover,
+.close4:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close5:hover,
+.close5:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close6:hover,
+.close6:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close7:hover,
+.close7:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close8:hover,
+.close8:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content,.modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-content6, .modal-content7, .modal-content8  {
+        width: 100%;
+    }
+}
+/* Modal finishing */
+
+.rubikFont {
     font-family: 'Rubik Distressed', cursive;
 }
-.beigeBackground{
-    background-color: #f8f3ee ;
+
+.beigeBackground {
+    background-color: #f8f3ee;
 }
-.bodyBackground{
+
+.bodyBackground {
     background-color: rgb(246, 246, 233);
 }
-.backGroundBleu{
+
+.backGroundBleu {
     background-color: #1f6e99;
 }
-.yellowPaprika{
+
+.yellowPaprika {
     color: #dcc06c !important;
 }
-.firstInicioCont{
+
+.firstInicioCont {
     padding-top: 1.5%;
-    padding-bottom: 1.5% ;
+    padding-bottom: 1.5%;
 }
-.titleClebra{
+
+.titleClebra {
     padding-top: 5%;
     padding-bottom: 5%;
-    
+
 }
-.pointer {cursor: pointer;}
-.bannerGrads{
+
+.pointer {
+    cursor: pointer;
+}
+
+.bannerGrads {
     background-image: url("/assets/images/festejaG.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 15rem;
 }
-.valuePp{
+
+.valuePp {
     background-color: hsl(218, 41%, 15%);
     background-image: radial-gradient(650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%), radial-gradient(1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%);
 }
-.marginAuto{
+
+.marginAuto {
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -61,7 +216,8 @@
     background-color: #eed0b3 !important;
 
 }
-.hrBorder{
+
+.hrBorder {
     border: 2px solid white;
 }
 
@@ -89,7 +245,8 @@
     background-size: cover;
     padding-bottom: 5%;
 }
-.divGraduaciones{
+
+.divGraduaciones {
     background-image: url("/assets/images/graduaciones.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -97,11 +254,12 @@
     height: 15rem;
     /* margin-top: 3%; */
 }
-.parallax{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bannerMenu {
@@ -189,6 +347,7 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .middle2 {
     transition: .5s ease;
     opacity: 0;
@@ -199,6 +358,7 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .middle3 {
     transition: .5s ease;
     opacity: 0;
@@ -218,6 +378,7 @@
 .container2:hover .image2 {
     opacity: 0.2;
 }
+
 .container2:hover .image3 {
     opacity: 0.2;
 }
@@ -225,9 +386,11 @@
 .container1:hover .middle1 {
     opacity: 1;
 }
+
 .container2:hover .middle2 {
     opacity: 1;
 }
+
 .container2:hover .middle3 {
     opacity: 1;
 }
@@ -318,18 +481,20 @@
     .menuBtns {
         font-size: 1rem !important;
     }
-    .title1padding{
+
+    .title1padding {
         padding-bottom: 3%;
     }
 }
+
 @media only screen and (max-device-width: 1366px) {
     .parallax {
-      background-attachment: scroll;
+        background-attachment: scroll;
     }
-  }
+}
 
 @media(max-width:991px) {
-    .title1padding{
+    .title1padding {
         padding-top: 5%;
     }
 
@@ -412,7 +577,7 @@
         padding-right: 3%;
     }
 
-  
+
     .responsiveMarginCard {
         margin-top: 5%;
     }
