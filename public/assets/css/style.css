@@ -4,6 +4,11 @@
 
 }
 
+.centerElement{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Modal */
 .modal, .modal2, .modal3, .modal4 , .modal5 , .modal6, .modal7, .modal8 {
     display: none;
@@ -496,6 +501,12 @@
 @media(max-width:991px) {
     .title1padding {
         padding-top: 5%;
+    }
+    .titleInicioRecintos{
+        font-size: 24px ;
+    }
+    .responsiveSociales{
+        margin-top: -23%;
     }
 
     /* .responsiveService{
