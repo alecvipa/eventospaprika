@@ -179,6 +179,7 @@
 .titleClebra {
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-bottom: -2%;
 
 }
 
@@ -188,6 +189,13 @@
 
 .bannerGrads {
     background-image: url("/assets/images/festejaG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+.bannerFiesta{
+    background-image: url("/assets/images/jovenesDeFiesta.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
